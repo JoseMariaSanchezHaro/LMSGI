@@ -1,0 +1,20 @@
+{box-sizing: Border-box;
+margin:0;
+padding:0;
+}
+
+div.container {
+    background-color: gold;
+    display: grid;
+    margin: 0 auto;
+    width: 90%;
+    height: 400px ;
+    padding: 5px;
+    grid-template-columns: auto auto auto auto;
+}
+div.container div {height: 50 px;
+}
+div.container #rojo {background-color: red;}
+div.container #verde {background-color: green;}
+div.container #azul {background-color: blue;}
+div.container #amarillo {background-color:yellow;}

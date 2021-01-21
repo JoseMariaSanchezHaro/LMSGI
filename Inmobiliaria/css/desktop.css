@@ -1,0 +1,43 @@
+
+
+
+
+
+
+header h1 {
+    font-size: 30px;
+    width: 60%;
+    color: rgb(5, 3, 3);
+
+}
+
+header nav {
+    width: 34%;
+    background-color: none;
+}
+
+header nav  {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    justify-content: space-between;
+}
+
+
+main figure {
+    width:50%;
+    order:0;
+}
+
+main picture {
+    width: 33%;
+    height: 33%;
+}
+main picture:last-child {
+    display: flex;
+}
+
