@@ -3,7 +3,6 @@
     margin:0;
     box-sizing: border-box;
 }
-
 header {
     display: flex;
     flex-flow: column nowrap;
@@ -23,9 +22,8 @@ header #header-top {
         flex: 0 0 70%;
         
     }
-
     header #header-top nav#contactos a{
-        color: black;
+        color: orangered;
         font-size: 30px;
         border: 0px solid black;
         text-align: center;
@@ -50,9 +48,9 @@ header #header-top {
     }
 
     header #header-top nav#sociales a{
-        color: black;
+        color: blue;
         font-size: 30px;
-        border: 2px solid black;
+        border: 2px solid white;
         text-align: center;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -67,7 +65,7 @@ header #header-content{
 }
 
     header #header-content #header-content-top{
-        background-color: black;
+        background-color: blue;
         display: flex;
         height: 40%;
         flex-flow: row nowrap;
@@ -80,7 +78,6 @@ header #header-content{
             height: 100px;
 
             flex: 3 0 10%;
-            background-image: url(../img/caronte.png);
             background-size: contain;
             background-repeat: no-repeat;
             border: 0px solid white;
@@ -91,7 +88,7 @@ header #header-content{
         }
 
         header #header-content #header-content-top h1 {
-            color: white;
+            color: blue;
             flex: 3 3 auto;
             font-size: 40px;
             border: 0px solid white;
@@ -112,17 +109,18 @@ header #header-content{
 
     header #header-content nav{
         height:  60%;
-        background-color: black;
+        background-color: rgb(214, 181, 181);
         display: flex;
         flex-flow: column nowrap;
         padding: 10px;
     }
         header #header-content nav a{
             flex: 1 0 auto; 
-            color : ghostwhite;
+            color : yellowgreen;
             text-decoration: none;
             font-size: 25px;
-            border: 1px solid white;
+            border: 1px solid black;
+            
             display: flex;
             align-items: center;
             padding-left: 10px;
@@ -136,7 +134,7 @@ header #header-content{
         header #header-content nav a:hover {
             background-color: rgba(230, 126, 34, .8);
             border: 0px solid white;
-            color: black;
+            color: whitesmoke;
         }
         header #header-content nav a#portfolio {
             display: none;
@@ -145,59 +143,3 @@ header #header-content{
             display:none;
         }
         
-main {
-    padding: 0px;
-}
-    main header {
-        height: 80px;
-        background-color: orange;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-        padding: 5px;
-    }
-    main header h2 {
-        flex: 0 0 100%;
-        font-size: 30px;
-        color: white;
-        font-family: Unlock;
-    }
-    main header nav#breadCrumb{
-        flex: 0 0 50%;
-        
-    }
-    main header nav#breadCrumb a{
-        color:blue;
-        text-decoration: none;
-        font-family: Dosis;
-    }
-
-    main section {
-        padding: 3px;
-    }
-    main section  article {
-        display: flex;
-        flex-flow: row nowrap;
-        height: 100px;
-        border: 2px solid black;
-        border-radius: 5px;
-        overflow: hidden;
-        padding: 3px;
-        margin-bottom: 3px;
-    }
-    main section article img{
-        flex: 0 0 auto;
-        height: 100%;
-    }
-    main section article .datos {
-
-        padding: 5px;
-    }
-    main section article .datos h2 {
-        color:blue;
-    }
-    main section article .datos p {
-        font-size: 14px;
-        text-align: justify;
-        text-indent: 0.5cm;
-    }
